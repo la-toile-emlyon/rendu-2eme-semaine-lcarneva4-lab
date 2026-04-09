@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-image: url(assets/image-header.png);
+    min-height: 147vh;
+    padding: 20px;
+    color: white;
+    background-position: center;
+}
+
+.divheader {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.imgnav {
+    display: flex;
+    padding: 35px;
+    justify-content: space-between;
+}
+
+.sectionun {
+    background-color: black;
+    min-height: 90vh;
+    color: white;
+}
+
+.sectiondeux {
+    background-image: url(assets/section-img.png);
+    min-height: 140vh;
+    background-position: center;
+}
+
+.sectiontrois {
+    min-height: 130vh;
+    background-color: black;
+    color: white;
+}
+
+.banniere {
+    background-image: url(assets/banniere-logo.png);
+    min-height: 50vh;
+    background-position: center;
+}
+
+.formulaire {
+    background-color: black;
+    min-height: 140vh;
+    color: white;
+}
