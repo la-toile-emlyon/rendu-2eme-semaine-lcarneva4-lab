@@ -1,37 +1,102 @@
 * {
     margin: 0;
+    font-family: "DM sans";
 }
 
 header {
     background-image: url(assets/image-header.png);
-    min-height: 147vh;
+    min-height: 146vh;
     padding: 20px;
     color: white;
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 120px;
+    margin-bottom: 20px;
+}
+
+.lyon {
+    margin-bottom: 65px;
+    font-size: 20px;
+}
+
+.mai {
+    font-size: 20px;
+}
+
+.urban {
+    font-size: 40px;
+    margin-bottom: -30px;
 }
 
 .divheader {
-    display: flex;
-    justify-content: center;
+    width: 550px;
+    height: 488px;
+    position: absolute;
+    top: 53%;
+    left: 29%;
 }
 
+.spect {
+
+    width: 600px;
+    height: 350px;
+}
+
+.boutonhead {
+}
+
+.line {
+    font-size: 40px;
+    margin-bottom: 110px;
+}
+ul li {
+    margin-bottom: 20px;
+}
+
+.hdeuxa {
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.deux {
+    font-size: 12px;
+}
+
+.banniere {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ul 
+
+ul {
+    margin-bottom: 80px;
+}
 
 nav a {
     color: white;
     text-decoration: none;
-
+    margin: 12px;
 }
 
 .imgnav {
     display: flex;
-    padding: 35px;
     justify-content: space-between;
+    padding: 70px;
 }
 
 .sectionun {
     background-color: black;
     min-height: 90vh;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sectiondeux {
@@ -44,6 +109,19 @@ nav a {
     min-height: 130vh;
     background-color: black;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.boutonquatre {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-decoration: none;
 }
 
 .banniere {
@@ -56,4 +134,38 @@ nav a {
     background-color: black;
     min-height: 140vh;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boutonun {
+    background-color:rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-decoration: none;
+}
+
+.boutonune {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-decoration: none;
+}
+
+.boutontrois {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-decoration: none;
 }
